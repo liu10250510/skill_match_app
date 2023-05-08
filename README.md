@@ -1,13 +1,7 @@
----
-title: Demo App
-emoji: 🌖
-colorFrom: pink
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.17.0
-app_file: app.py
-pinned: false
-license: unknown
----
+## Demo KeyWord Search from a document
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Demo Skill Search from a file
+### 1. Install dependencies
+pip install -r requirements.txt
+### 2. Run the service
+streamlit run skill_ner.py
