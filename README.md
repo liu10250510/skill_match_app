@@ -1,7 +1,7 @@
-## Demo KeyWord Search from a document
-
-## Demo Skill Search from a file
-### 1. Install dependencies
+## Install dependencies
 pip install -r requirements.txt
-### 2. Run the service
+
+## 1. Demo KeyWord Search from a document
+streamlit run keyword_bert.py
+## 2. Demo Skill Search from a file
 streamlit run skill_ner.py
